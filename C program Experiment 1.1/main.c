@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 int main()
 {
     int first, second, third, sum, product, average;
@@ -17,3 +16,4 @@ int main()
 
     getch();
 }
+

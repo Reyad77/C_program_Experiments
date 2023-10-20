@@ -2,11 +2,11 @@
 
 int main()
 {
-    int celcius;
+    float celsius;
     float fahrenheit;
-    printf("enter a Celcius temperature: ");
-    scanf("%d", &celcius);
-    fahrenheit= (celcius * 9/5) + 32;
-    printf("The Fahrenheit temperature is : (%d * 9/5) + 32 = %.3f", celcius, fahrenheit);
+    printf("enter a Fahrenheit temperature: ");
+    scanf("%f", &fahrenheit);
+    celcius = 5 * (fahrenheit-32)/9;
+    printf("The celsius temperature is :  5* (%f - 32) / 9 = %.3f ", fahrenheit, celcius);
     getch();
 }
