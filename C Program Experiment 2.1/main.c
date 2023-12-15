@@ -1,10 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
-
 int main()
 {
 
-      // Input values //
+    // Input values //
     float a, b, c;
     printf("Enter the value of a: ");
     scanf("%f", &a);
